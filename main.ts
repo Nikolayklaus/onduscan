@@ -1,4 +1,4 @@
-basic.showIcon(IconNames.Heart)
+basic.showIcon(IconNames.Skull)
 basic.forever(function () {
     if (Tinybit.Line_Sensor(Tinybit.enPos.LeftState, Tinybit.enLineState.White) && Tinybit.Line_Sensor(Tinybit.enPos.RightState, Tinybit.enLineState.White)) {
         Tinybit.CarCtrlSpeed(Tinybit.CarState.Car_Run, 70)
